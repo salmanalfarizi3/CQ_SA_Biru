@@ -184,4 +184,6 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
+                string query = "INSERT INTO ProgramStudi (KodeProdi, NamaProdi) VALUES ('MI01','Manajemen Informatika')";
+
                
